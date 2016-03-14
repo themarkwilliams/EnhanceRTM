@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name EnhanceRTM
-// @version 0.1
+// @version 1.0
 // @author Mark Williams
 // @description "Get rid of the metallic pea highlight color"
 // @match        https://www.rememberthemilk.com/*
 // @run-at document-start
 // ==/UserScript==
+// BitBucket: https://bitbucket.org/themarkwilliams/enhancertm
+// Git: https://github.com/themarkwilliams/EnhanceRTM/blob/master/userscript.js
 
 // Set tag color in task list
 GM_addStyle('.b-eb-Uk-o { background-color: #0060BF !important; }');
@@ -27,3 +29,7 @@ GM_addStyle('.zl-Uk-o .zl-Uk-fq { background-color: #0060BF !important; }');
 
 GM_addStyle('.b-c-d-e-f-Bq-o { background-color: #0060BF !important; }');
 GM_addStyle('.b-k-i-Ik { background-color: #0060BF !important; }');
+
+/* Get Rid of the Pro Nag in the lower left */
+GM_addStyle('.b-bo-ym-Xj-km { display:none !important;}');
+GM_addStyle('.b-ym-Xj { display:none !important;}');
