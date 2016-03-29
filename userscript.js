@@ -26,10 +26,10 @@ GM_addStyle('.b-Hl-n-fr-hr, .b-Hl-n-fr-hr-o, .b-Hl-n-fr-hr-i-gb, .b-k-i a a-ib N
 GM_addStyle('.b-ll-fq { background-color: #0060BF !important; }');
 GM_addStyle('.b-q-s-l { background-color: #0060BF !important; }');
 GM_addStyle('.zl-Uk-o .zl-Uk-fq { background-color: #0060BF !important; }');
-
 GM_addStyle('.b-c-d-e-f-Bq-o { background-color: #0060BF !important; }');
 GM_addStyle('.b-k-i-Ik { background-color: #0060BF !important; }');
 
 /* Get Rid of the Pro Nag in the lower left */
-GM_addStyle('.b-bo-ym-Xj-km { display:none !important;}');
 GM_addStyle('.b-ym-Xj { display:none !important;}');
+GM_addStyle('.b-bo-ym-Xj-km { display:none !important;}');
+GM_addStyle('.b-bo-zl-co-km { height:90%; }');
