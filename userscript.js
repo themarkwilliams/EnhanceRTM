@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name EnhanceRTM
-// @version 1.1
+// @version 1.2
 // @author Mark Williams
 // @description "Get rid of the metallic pea highlight color"
 // @match        https://www.rememberthemilk.com/*
 // @run-at document-start
+// @grant GM_addStyle
 // ==/UserScript==
-// BitBucket: https://bitbucket.org/themarkwilliams/enhancertm
 // Git: https://github.com/themarkwilliams/EnhanceRTM/blob/master/userscript.js
 
 // Set tag color in task list
