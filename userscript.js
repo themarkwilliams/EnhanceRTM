@@ -20,7 +20,7 @@ GM_addStyle('.b-f-m-n-o-p { background-color: #0060BF !important; color: #E0EBD5
 GM_addStyle('.zl-Uk-fq { background-color: #0060BF !important; }');
 
 // Take the metallic pea out of the new tag in the Smart Add Bar
-GM_addStyle('.b-Hl-n-fr-hr, .b-Hl-n-fr-hr-o, .b-Hl-n-fr-hr-i-gb, .b-k-i a a-ib Nj-Rn-Sn { background-color: #E4EEF8 !important; color: #000000 !important; }');
+GM_addStyle('.b-Hl-n-fr-hr, .b-Hl-n-fr-hr-o, .b-Hl-n-fr-hr-i-gb, .b-k-i a a-ib Nj-Rn-Sn, .b-Hl-n-gr-ir-o, .b-Hl-n-gr-ir { background-color: #E4EEF8 !important; color: #0060BF !important; }');
 
 /* Others */
 GM_addStyle('.b-ll-fq { background-color: #0060BF !important; }');
