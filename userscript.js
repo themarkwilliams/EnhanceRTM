@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name EnhanceRTM
-// @version 1.3
+// @version 1.4
 // @author Mark Williams
 // @description "Get rid of the metallic pea highlight color"
 // @match        https://www.rememberthemilk.com/*
@@ -11,16 +11,22 @@
 
 // Set tag color in task list
 GM_addStyle('.b-eb-Uk-o { background-color: #0060BF !important; }');
+GM_addStyle('.b-db-Lm-o { background-color: #0060BF !important; }');
 
 // Set tag in right detail pane
 GM_addStyle('.b-f-m-n-o-Tl { background-color: #0060BF !important; color: #E0EBD5 !important; }');
 GM_addStyle('.b-f-m-n-o-p { background-color: #0060BF !important; color: #E0EBD5 !important; }');
+GM_addStyle('.b-f-m-n-o-Nj { background-color: #0060BF !important; color: #E0EBD5 !important; }');
 
 // Take the metallic pea out of the left column
-GM_addStyle('.zl-Uk-fq { background-color: #0060BF !important; }');
+GM_addStyle('.Ej-Lm-ur { background-color: #0060BF !important; color: #0060BF !important; }');
 
-// Take the metallic pea out of the new tag in the Smart Add Bar
-GM_addStyle('.b-Hl-n-fr-hr, .b-Hl-n-fr-hr-o, .b-Hl-n-fr-hr-i-gb, .b-k-i a a-ib Nj-Rn-Sn, .b-Hl-n-gr-ir-o, .b-Hl-n-gr-ir { background-color: #E4EEF8 !important; color: #0060BF !important; }');
+// Take the metallic pea out of the new tag in the Smart Add Bar - 11/3/16 verified
+GM_addStyle('.b-An-n-Is-Ks-on { background-color: #E4EEF8 !important; color: #0060BF !important; }');
+GM_addStyle('.b-An-n-Is-Ks.b-An-n-Is-Ks-o { background-color: #E4EEF8 !important; color: #0060BF !important; }');
+
+// Take the metallic pea out of tag suggestion box
+//GM_addStyle('.b-Um-Gm-Gd { background-color: #0060BF !important; }');
 
 /* Others */
 GM_addStyle('.b-ll-fq { background-color: #0060BF !important; }');
@@ -30,6 +36,5 @@ GM_addStyle('.b-c-d-e-f-Bq-o { background-color: #0060BF !important; }');
 GM_addStyle('.b-k-i-Ik { background-color: #0060BF !important; }');
 
 /* Get Rid of the Pro Nag in the lower left */
-GM_addStyle('.b-ym-Xj { display:none !important;}');
-GM_addStyle('.b-bo-ym-Xj-km { display:none !important;}');
-GM_addStyle('.b-bo-zl-co-km { height:90%; }');
+GM_addStyle('.b-Cp-go-Rj-Vn { display:none !important;}'); //11/3/16
+GM_addStyle('.b-Cp-Ej-Dp-Vn { height:90%; }');//11/3/16
