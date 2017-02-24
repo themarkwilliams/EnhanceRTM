@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name EnhanceRTM
-// @version 1.6
+// @version 1.7
 // @author Mark Williams
 // @description "Get rid of the metallic pea highlight color"
 // @match        https://www.rememberthemilk.com/*
@@ -20,8 +20,8 @@ GM_addStyle('.b-f-m-n-o-Nj { background-color: #0060BF !important; color: #E0EBD
 GM_addStyle('.Ej-Om-o .Ej-Om-wr { background-color: #0060BF !important; color: #0060BF !important; }'); //12/16/16
 
 // Take the metallic pea out of the new tag in the Smart Add Bar - 11/3/16 verified
-GM_addStyle('.b-Dn-n-Ks-Ms-o { background-color: #E4EEF8 !important; color: #0060BF !important; }'); //12/16/16
-GM_addStyle('.b-Dn-n-Ks-Ms-o .b-Dn-n-Ks-Ms-i-fb.b-k-i-Pm { background-color: #E4EEF8 !important; color: #0060BF !important; }'); //12/16/16
+GM_addStyle('.b-Dn-n-Ls-Ns-o { background-color: #E4EEF8 !important; color: #0060BF !important; }'); //2/23/17
+GM_addStyle('.b-Dn-n-Ls-Ns-o .b-Dn-n-Ls-Ns-i-fb.b-k-i-Pm { background-color: #E4EEF8 !important; color: #0060BF !important; }'); //2/23/17
 
 // Take the metallic pea out of tag suggestion box
 GM_addStyle('.b-ln-wr { background-color: #0060BF !important; }'); //12/16/16
