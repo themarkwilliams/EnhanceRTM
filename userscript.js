@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name EnhanceRTM
-// @version 1.7
+// @version 1.8
 // @author Mark Williams
 // @description "Get rid of the metallic pea highlight color"
 // @match        https://www.rememberthemilk.com/*
