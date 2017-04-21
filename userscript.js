@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name EnhanceRTM
-// @version 1.10
+// @version 1.11
 // @author Mark Williams
 // @description "Get rid of the metallic pea highlight color"
 // @match        https://www.rememberthemilk.com/*
@@ -31,5 +31,5 @@ GM_addStyle('.b-tn-Er { background-color: #0060BF !important; }'); // 4/20/17
 GM_addStyle('.b-c-d-e-f-es-o { background-color: #0060BF !important; }'); // 4/20/17
 
 /* Get Rid of the Pro Nag in the lower left */
-GM_addStyle('.b-Hp-mo-Rj-bo { display:none !important;}'); // 4/20/17
-GM_addStyle('.b-Hp-Ej-Ip-bo { height:90%; }');// 4/20/17
+GM_addStyle('.b-Lp-to-Rj-io { display:none !important;}'); // 4/20/17
+GM_addStyle('.b-Lp-Ej-Mp-io { height:90%; }');// 4/20/17
