@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name EnhanceRTM
+// @name Enhance RTM
 // @version 1.14
 // @author Mark Williams
 // @description "Get rid of the metallic pea highlight color"
