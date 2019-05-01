@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name RemoveRTMLogo
-// @version 1.6
+// @version 1.7
 // @author Mark Williams
 // @description "Get rid of the whimsical Cow Logo from Rememember the Milk"
 // @match        https://www.rememberthemilk.com/*
@@ -13,7 +13,7 @@
 GM_addStyle('.b-Dn-Jo { display:none !important; }'); // 4/23/18
 
 // Adjust the height of the left navigation to compensate for the missing logo
-GM_addStyle('.b-Up-Fj-Vp-ro { top:0 !important; bottom:0 !important; height:100% !important; }'); // 4/23/18
+GM_addStyle('.b-Vp-Fj-Wp-ro { top:0 !important; bottom:0 !important; height:100% !important; }'); // 4/30/19
 
 // Change the Favicon
 var favicon_link_html = document.querySelector("link[rel*='icon']") || document.createElement('link');
