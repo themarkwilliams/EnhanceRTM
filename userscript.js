@@ -31,7 +31,7 @@ GM_addStyle('.b-l-Qb-Im-Pb-rk { background-color: #0060BF !important; color: #E0
 GM_addStyle('.lk-in-Pb .lk-in-Tr { background-color: #0060BF !important; color: #0060BF !important; }'); // 11/23/20
 
 // Take the metallic pea out of the new tag in the Smart Add Bar
-GM_addStyle('.b-Wn-zm-et-gt-Mb .b-Wn-zm-et-gt-i-hb.b-k-i-in { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 12/31/19
+GM_addStyle('.b-Wn-zm-et-gt-Mb .b-Wn-zm-et-gt-i-hb.b-k-i-in { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 11/23/20
 GM_addStyle('.b-Rn-Im-gt-ht b-Rn-Im-gt-ht-Pb { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 11/23/20
 
 // Take the metallic pea out of tag suggestion box
