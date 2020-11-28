@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Enhance RTM
-// @version 1.19
+// @version 1.20
 // @author Mark Williams
 // @description "Get rid of the whimsical Cow Logo from Rememember the Milk and the metallic pea color"
 // @match        https://www.rememberthemilk.com/*
@@ -32,7 +32,7 @@ GM_addStyle('.lk-in-Pb .lk-in-Tr { background-color: #0060BF !important; color: 
 
 // Take the metallic pea out of the new tag in the Smart Add Bar
 GM_addStyle('.b-Wn-zm-et-gt-Mb .b-Wn-zm-et-gt-i-hb.b-k-i-in { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 11/23/20
-GM_addStyle('.b-Rn-Im-gt-ht b-Rn-Im-gt-ht-Pb { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 11/23/20
+GM_addStyle('.b-Rn-Im-gt-ht-Pb { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 11/27/20
 
 // Take the metallic pea out of tag suggestion box
 GM_addStyle('.b-Bn-Tr { background-color: #0060BF !important; }'); // 11/23/20
