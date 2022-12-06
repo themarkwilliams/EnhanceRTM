@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Enhance RTM
-// @version 1.21
+// @version 1.22
 // @author Mark Williams
 // @description "Get rid of the whimsical Cow Logo from Rememember the Milk and the metallic pea color"
 // @match        https://www.rememberthemilk.com/*
@@ -21,30 +21,30 @@ try {
 catch(e) { }
 
 // Set tag color in task list
-GM_addStyle('.b-ib-VQ-Pb { background-color: #0060BF !important; }'); // 9/19/22
+GM_addStyle('.b-ib-fR-Pb { background-color: #0060BF !important; }'); // 12/5/22
 
 // Set tag in right detail pane
-GM_addStyle('.b-l-Qb-Sj-Pb-mP { background-color: #0060BF !important; color: #E0EBD5 !important; }');// 9/19/22
-GM_addStyle('.b-l-Qb-Sj-Pb-YH { background-color: #0060BF !important; color: #E0EBD5 !important; }');// 9/19/22
+GM_addStyle('.b-l-Qb-Sj-Pb-wP { background-color: #0060BF !important; color: #E0EBD5 !important; }');// 12/5/22
+GM_addStyle('.b-l-Qb-Sj-Pb-gI { background-color: #0060BF !important; color: #E0EBD5 !important; }');// 12/5/22
 
 // Take the metallic pea out of the left column
-GM_addStyle('.iP-VQ-Pb .iP-VQ-WU { background-color: #0060BF !important; color: #0060BF !important; }'); // 9/19/22
+GM_addStyle('.sP-fR-Pb .sP-fR-gV { background-color: #0060BF !important; color: #0060BF !important; }'); // 12/5/22
 
 // Take the metallic pea out of the new tag in the Smart Add Bar
-GM_addStyle('.b-TR-Sj-bW-cW-Pb .b-TR-Sj-bW-cW-o-kb.b-u-o-nR { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 11/23/20
-GM_addStyle('.b-TR-Sj-bW-cW-Pb { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 9/19/22
+GM_addStyle('.b-dS-Sj-lW-mW-Pb .b-dS-Sj-lW-mW-o-kb.b-u-o-xR { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 12/5/22
+GM_addStyle('.b-dS-Sj-lW-mW-Pb { background-color: #E4EEF8 !important; color: #0060BF !important; }'); // 12/5/22
 
 // Take the metallic pea out of tag suggestion box
-GM_addStyle('.b-FR-WU { background-color: #0060BF !important; }'); // 9/19/22
+GM_addStyle('.b-PR-gV { background-color: #0060BF !important; }'); // 12/5/22
 
 /* Others */
-GM_addStyle('.b-v-w-x-l-Pr-Pb { background-color: #0060BF !important; }'); // 9/19/22
-
-/* Get Rid of the Pro Nag in the lower left */
-GM_addStyle('.b-CR-tT { display:none !important; }'); // 9/19/22
+GM_addStyle('.b-v-w-x-l-Qr-Pb { background-color: #0060BF !important; }'); // 12/5/22
 
 // Hide the Cow Logo
-GM_addStyle('.b-hR-zm { display:none !important; }'); // 9/19/22
+GM_addStyle('.b-MR-DT { display:none !important; }'); // 12/5/22
+
+/* Get Rid of the Pro Nag in the lower left */
+GM_addStyle('.b-rR-zm { display:none !important; }'); // 12/5/22
 
 // Adjust the height of the left navigation to compensate for the missing logo
-GM_addStyle('.b-aM-iP-Jw-wR { top:0 !important; bottom:0 !important; height:100% !important; }'); // 9/19/22
+GM_addStyle('.b-lM-sP-Lw-GR { top:0 !important; bottom:0 !important; height:100% !important; }'); // 12/5/22
