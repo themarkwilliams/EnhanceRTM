@@ -46,5 +46,8 @@ GM_addStyle('.b-MR-DT { display:none !important; }'); // 12/5/22
 /* Get Rid of the Pro Nag in the lower left */
 GM_addStyle('.b-rR-zm { display:none !important; }'); // 12/5/22
 
+/* Hide invisible box in lower left */
+GM_addStyle('.b-lM-rR-zm-GR { display:none !important; }'); // 12/5/22
+
 // Adjust the height of the left navigation to compensate for the missing logo
 GM_addStyle('.b-lM-sP-Lw-GR { top:0 !important; bottom:0 !important; height:100% !important; }'); // 12/5/22
