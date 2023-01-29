@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Enhance RTM
-// @version 1.22
+// @version 1.23
 // @author Mark Williams
 // @description "Get rid of the whimsical Cow Logo from Rememember the Milk and the metallic pea color"
 // @match        https://www.rememberthemilk.com/*
