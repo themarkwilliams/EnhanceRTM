@@ -7,6 +7,7 @@
 // @run-at document-start
 // @grant GM_addStyle
 // @downloadURL  https://raw.githubusercontent.com/themarkwilliams/EnhanceRTM/master/userscript.js
+// @updateURL  https://raw.githubusercontent.com/themarkwilliams/EnhanceRTM/master/userscript.js
 // ==/UserScript==
 // Git: https://github.com/themarkwilliams/EnhanceRTM/blob/master/userscript.js
 
