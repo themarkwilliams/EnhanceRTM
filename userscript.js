@@ -6,7 +6,6 @@
 // @match        https://www.rememberthemilk.com/*
 // @run-at document-start
 // @grant GM_addStyle
-// @updateURL  https://raw.githubusercontent.com/themarkwilliams/EnhanceRTM/master/userscript.js
 // @downloadURL  https://raw.githubusercontent.com/themarkwilliams/EnhanceRTM/master/userscript.js
 // ==/UserScript==
 // Git: https://github.com/themarkwilliams/EnhanceRTM/blob/master/userscript.js
